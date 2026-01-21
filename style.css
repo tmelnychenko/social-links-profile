@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: inter;
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf)
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf)
 }
 
 body {
@@ -49,10 +49,11 @@ header {
     width: 100%;
 }
 
-h2 {
+h1 {
     margin: 0;
     font-weight: 400;
     line-height: 2.25rem;
+    font-size: 1.5rem;
 }
 
 address {
@@ -63,15 +64,11 @@ address {
     line-height: 1.3rem;
 }
 
-article {
-    margin: 0;
-    width: 100%;
-}
-
 .profile-about {
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.3rem;
+    margin: 0;
 }
 
 .profile-links {
